@@ -1,0 +1,166 @@
+/* 全局样式 */
+body {
+    font-family: 'Helvetica Neue', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft YaHei', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* 头部样式 */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+/* 导航栏样式 */
+nav {
+    background: #4a555c;
+    color: #fff;
+    padding: 5px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0779e4;
+    border-radius: 5px;
+}
+
+/* 内容区域卡片样式 */
+.card {
+    background: #ffffff;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    scroll-margin-top: 70px; /* 防止跳转时被导航栏遮挡 */
+}
+
+.card h2 {
+    color: #35424a;
+    border-bottom: 2px solid #0779e4;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.card h3 {
+    color: #4a555c;
+}
+
+.card ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+#info p {
+    font-size: 1.1em;
+    margin: 8px 0;
+}
+
+#info a {
+    color: #0779e4;
+    text-decoration: none;
+}
+
+#info a:hover {
+    text-decoration: underline;
+}
+
+/* 技能展示样式 */
+.skill-item {
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    font-weight: bold;
+    display: inline-block;
+    width: 120px;
+}
+
+.skill-bar {
+    display: inline-block;
+    width: calc(100% - 130px);
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    height: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.skill-level {
+    background-color: #0779e4;
+    height: 100%;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 20px;
+    color: white;
+    border-radius: 15px 0 0 15px;
+    animation: fill-bar 2s ease-out forwards;
+}
+
+@keyframes fill-bar {
+    from { width: 0; }
+}
+
+
+/* 职业规划模块特殊样式 */
+#plan h4 {
+    color: #0779e4;
+    margin-top: 20px;
+}
+
+/* 尾部样式 */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
