@@ -2,11 +2,11 @@
 判断某天是某年的第几天
  */
 
-package com.unit2_switch_case;
+package study.unit2.switch_case;
 
 import java.util.Scanner;
 
-public class practice2 {
+public class SumDays {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("请输入year");

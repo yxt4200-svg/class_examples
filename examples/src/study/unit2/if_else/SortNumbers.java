@@ -1,8 +1,8 @@
-package com.unit2_if_else;
+package study.unit2.if_else;
 // 将num1,num2,num3从小到大输出
 import java.util.Scanner;
 
-public class practice3 {
+public class SortNumbers {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

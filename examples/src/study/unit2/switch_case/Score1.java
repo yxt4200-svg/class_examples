@@ -1,6 +1,9 @@
-package com.unit2_switch_case;
-// 大于60输出合格，否则不合格
-public class practice {
+/*
+大于60输出合格，否则不合格
+ */
+package study.unit2.switch_case;
+
+public class Score1 {
     public static void main(String[] args) {
         int score = 78;
 //        switch(score / 10){

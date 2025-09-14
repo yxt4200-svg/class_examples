@@ -1,8 +1,8 @@
-package com.unit2_if_else;
+package study.unit2.if_else;
 
 import java.util.Scanner;
 
-public class practice1 {
+public class ScannerDemo {
     public static void main(String[] args) {
        Scanner scan = new Scanner(System.in);
         System.out.println("请输入你的姓名");

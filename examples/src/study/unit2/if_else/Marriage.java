@@ -1,7 +1,7 @@
-package com.unit2_if_else;
+package study.unit2.if_else;
 
 import java.util.Scanner;
-public class marry {
+public class Marriage {
     public static void main(String[] args) {
 
 //        Scanner scan = new Scanner(System.in);

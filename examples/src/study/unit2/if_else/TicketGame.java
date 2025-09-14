@@ -1,8 +1,8 @@
-package com.unit2_if_else;
+package study.unit2.if_else;
 
 import java.util.Scanner;
 
-public class ticketGame {
+public class TicketGame {
     public static void main(String[] args) {
         // double value = Math.random();  // [0.0,1.0]
         // 公式：[a,b] : (int)(Math.random() * (b - a + 1) + a)
