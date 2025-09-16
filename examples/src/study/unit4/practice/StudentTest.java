@@ -39,15 +39,26 @@ public class StudentTest {
         // 调用静态方法
         printGrade3(s);
 
+        // 按成绩冒泡排序（升序）
+        for(int i = 0;i < s.length;i++){
+            for(int j = 0;j < s.length - 1 - i;j++){
+                if(s[j+1].score < s[j].score){
+                    Student temp = s[j];
+                    s[j] = s[j+1];
+                    s[j+1] = temp;
+                }
+            }
+        }
+
         // 调用非静态方法
         // 先创建StudentTest的对象
         StudentTest test = new StudentTest();
         // 通过对象调用非静态方法
-        test.outputGrade3(s);
+        test.outputGrade(s);
     }
     // 打印出3年级学生信息的静态方法
     public static void printGrade3(Student[] s){
-        System.out.println("打印出3年级学生信息的静态方法");
+        System.out.println("打印出3年级学生信息的静态方法：");
         for(int i = 0;i < s.length;i++){
             if(s[i].state == 3){
                 System.out.println("学号：" + s[i].number + " 年级：" + s[i].state + " 成绩：" + s[i].score);
@@ -56,13 +67,11 @@ public class StudentTest {
         System.out.println();
     }
 
-    // 打印出3年级学生信息的非静态方法
-    public void outputGrade3(Student[] s){
-        System.out.println("打印出3年级学生信息的非静态方法");
+    // 打印出所有学生信息的非静态方法
+    public void outputGrade(Student[] s){
+        System.out.println("打印出所有学生信息的非静态方法：");
         for(int i = 0;i < s.length;i++){
-            if(s[i].state == 3){
                 System.out.println("学号：" + s[i].number + " 年级：" + s[i].state + " 成绩：" + s[i].score);
-            }
         }
     }
 }
