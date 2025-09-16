@@ -1,5 +1,5 @@
 /*
-打印m行n列的*矩阵，计算其面积，并作为返回值，在main中打印
+ *打印m行n列的*矩阵，计算其面积，并作为返回值，在main中打印
  */
 package study.unit4.practice;
 
