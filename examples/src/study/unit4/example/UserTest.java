@@ -27,7 +27,7 @@
     属性：加载到堆空间中（非static）
     局部变量：加载到栈空间
     */
-package study.unit4;
+package study.unit4.example;
 
 public class UserTest {
     public static void main(String[] args) {

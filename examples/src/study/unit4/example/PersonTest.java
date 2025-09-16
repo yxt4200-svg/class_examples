@@ -5,7 +5,7 @@
 创建类的对象 = 类的实例化 = 实例化类
  */
 
-package study.unit4;
+package study.unit4.example;
 
 // 测试类
 public class PersonTest {
