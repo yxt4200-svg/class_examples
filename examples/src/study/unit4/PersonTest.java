@@ -23,6 +23,17 @@ public class PersonTest {
         p1.sleep();
         p1.talk("Chinese");
 
+        Person p2 = new Person();
+        System.out.println(p2.name);
+        System.out.println(p2.isMale);
+
+        // 将p1变量保存的对象地址值赋给p3，导致p1和p3指向了堆空间中的
+        Person p3 = p1;
+        System.out.println(p3.name);
+
+        p3.age = 10;
+        System.out.println(p1.age);
+
     }
 }
 
