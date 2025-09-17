@@ -17,6 +17,8 @@ public class CircleTest {
         PassObjectTest test = new PassObjectTest();
         Circle c =new Circle();
         test.printAreas(c,5);
+
+        System.out.println("now radius is " + c.radius);
     }
 }
 
@@ -27,8 +29,8 @@ class PassObjectTest {
         for(int i = 1;i <= times;i++){
             c.radius = i;
             System.out.println(c.radius + "\t\t" + c.findArea());
-
         }
+        c.radius = times + 1;
     }
 }
 
