@@ -101,12 +101,23 @@ class ArraysUtil {
         for(int i = 0;i < arr.length - 1;i++){
             for(int j = 0;j < arr.length - 1 - i;j++){
                 if(arr[j+1] < arr[j]){
-                    int temp = arr[j+1];
-                    arr[j+1] = arr[j];
-                    arr[j] = temp;
+//                    int temp = arr[j+1];
+//                    arr[j+1] = arr[j];
+//                    arr[j] = temp;
+                    // 正确
+                    swap(arr,j,j+1);
+                    // 错误
+                    // swap(arr[j],arr[j+1])
                 }
             }
         }
+    }
+
+    // 交换数组元素
+    public void swap(int[] arr,int i,int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 
     // 遍历数组
@@ -133,4 +144,5 @@ class ArraysUtil {
         }
         return -1;
     }
+
 }
