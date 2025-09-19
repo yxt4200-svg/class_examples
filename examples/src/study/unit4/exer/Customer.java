@@ -1,4 +1,6 @@
-package study.unit4.practice;
+package study.unit4.exer;
+
+import study.unit4.exer.Account;
 
 public class Customer {
     private String fistName;

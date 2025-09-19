@@ -1,4 +1,4 @@
-package study.unit4.practice;
+package study.unit4.exer;
 
 public class Account{
     private int id; // 账号

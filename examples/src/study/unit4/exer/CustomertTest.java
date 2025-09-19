@@ -4,7 +4,10 @@
  *该类包括的属性：账号 id，余额 balance,年利率 annuallnterestRate;
  *包含的方法:访问器方法（getter 和 setter方法)，取款方法 withdraw()，存款方法 deposit()。
  */
-package study.unit4.practice;
+package study.unit4.exer;
+
+import study.unit4.exer.Account;
+import study.unit4.exer.Customer;
 
 public class CustomertTest {
     public static void main(String[] args) {
