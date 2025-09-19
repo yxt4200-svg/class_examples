@@ -6,7 +6,7 @@
  *  如果参数是引用数据类型，此时实参赋给形参的是实参存储数据的地址值。
  *
  */
-package study.unit4.example1;
+package study.unit4.example;
 
 public class ValueTransferTest {
     public static void main(String[] args) {

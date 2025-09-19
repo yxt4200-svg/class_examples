@@ -1,26 +1,29 @@
-package study.unit4.practice1;
+/*
+封装和构造器练习
+ */
+package study.unit4.practice;
 
-public class PersonTest {
+public class PersonTestPlus {
     public static void main(String[] args) {
-        Person p1 = new Person();
+        PersonPlus p1 = new PersonPlus();
         p1.setAge(15);
         System.out.println("年龄为：" + p1.getAge());
 
-        Person p2 = new Person(21,"Tom");
+        PersonPlus p2 = new PersonPlus(21,"Tom");
         System.out.println("名字为：" + p2.getName() + " 年龄为：" + p2.getAge());
 
     }
 }
 
-class Person{
+class PersonPlus{
     private int age;
     private String name;
 
-    public Person(){
+    public PersonPlus(){
         this.age = 18;
     }
 
-    public Person(int age,String name){
+    public PersonPlus(int age,String name){
         setAge(age);
         this.name = name;
     }

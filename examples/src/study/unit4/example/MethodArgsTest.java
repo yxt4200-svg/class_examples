@@ -7,7 +7,7 @@
  * 3.可变个数形参的方法与本类方法名相同，与形参类型也相同的数组不构成重载
  * 4.可变个数形参必须写在最后面，最多只能声明一个可变形参
  */
-package study.unit4.example1;
+package study.unit4.example;
 
 public class MethodArgsTest {
     public static void main(String[] args) {

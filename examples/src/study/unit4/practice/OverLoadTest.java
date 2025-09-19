@@ -1,4 +1,4 @@
-package study.unit4.practice1;
+package study.unit4.practice;
 
 public class OverLoadTest {
     public static void main(String[] args) {

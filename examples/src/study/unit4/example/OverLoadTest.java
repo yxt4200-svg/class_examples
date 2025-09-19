@@ -10,7 +10,7 @@
  *
  */
 
-package study.unit4.example1;
+package study.unit4.example;
 
 public class OverLoadTest {
     public static void main(String[] args) {
