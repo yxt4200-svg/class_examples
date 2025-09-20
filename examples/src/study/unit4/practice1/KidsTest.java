@@ -1,3 +1,6 @@
+/*
+继承性练习
+ */
 package study.unit4.practice1;
 
 public class KidsTest {
