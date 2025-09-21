@@ -8,5 +8,9 @@ public class CylinderTest {
 
         double volume = cylinder.findVolume();
         System.out.println("体积为:" + volume);
+
+        double area = cylinder.findArea();
+        System.out.println("圆柱表面积：" + area);
     }
 }
+  

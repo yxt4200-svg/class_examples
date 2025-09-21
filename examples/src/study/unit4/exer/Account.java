@@ -2,7 +2,7 @@ package study.unit4.exer;
 
 public class Account{
     private int id; // 账号
-    private double balance; // 余额
+    protected double balance; // 余额
     private double annualInteresRate; // 年利率
 
     public Account(){
@@ -42,11 +42,12 @@ public class Account{
     // 取钱的方法
     public void withdraw(double amount){
         if(balance < amount){
-            System.out.println("余额不足，取款失败");
+            System.out.println("余额不足!");
+            System.out.println("您的账户余额为：" + balance);
             return;
         }
         balance -= amount;
-        System.out.println("成功取出" + amount + "元");
+        System.out.println("成功取出：" + amount + "元");
     }
 
     // 存钱的方法

@@ -22,4 +22,8 @@ public class Kids extends ManKind{
     public void printAge(){
         System.out.println("I am " + yearsOld + " years old.");
     }
+
+    public void employeed(){
+        System.out.println("Kids should study and no job.");
+    }
 }
