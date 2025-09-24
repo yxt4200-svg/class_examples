@@ -1,5 +1,7 @@
 package study.unit4.practice1.equals;
-
+/*
+Object类之练习8
+ */
 public class OrderTest {
     public static void main(String[] args) {
         Order o1 = new Order(20, "123");

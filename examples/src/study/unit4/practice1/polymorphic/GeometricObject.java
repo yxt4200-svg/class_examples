@@ -1,7 +1,5 @@
 package study.unit4.practice1.polymorphic;
-/*
-多态之练习6
- */
+
 public class GeometricObject {
     protected String color;
     protected double weight;

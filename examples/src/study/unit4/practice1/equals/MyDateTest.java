@@ -1,5 +1,7 @@
 package study.unit4.practice1.equals;
-
+/*
+Object类之练习8
+ */
 public class MyDateTest {
     public static void main(String[] args) {
         MyDate m1 = new MyDate(2025,3,15);

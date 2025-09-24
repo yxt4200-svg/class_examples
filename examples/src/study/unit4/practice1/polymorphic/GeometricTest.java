@@ -1,5 +1,7 @@
 package study.unit4.practice1.polymorphic;
-
+/*
+多态之练习6
+ */
 public class GeometricTest {
     public static void main(String[] args) {
         Circle1 circle1 = new Circle1(2.0);
