@@ -38,6 +38,7 @@ public class ScoreTest {
                 continue;
             }
 
+            // 添加元素
             v.addElement(score);// 自动装箱
 
             // 4.获取学生成绩的最大值
@@ -49,8 +50,9 @@ public class ScoreTest {
         char level = 0;
         // 5.遍历Vec，得到每个学生的成绩，并与最大值比较，得出等级
         for(int i = 0;i < v.size();i++){
+            // 取元素
             Object obj = v.elementAt(i);
-            int score = (int)obj;
+            int score = (int)obj; // 自动拆箱
             int difference = maxScore - score;
 
             if(difference <= 10){
