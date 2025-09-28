@@ -1,4 +1,4 @@
-package study.unit4.practice2.staticTest;
+package study.unit4.practice2.statictest;
 /*
 编写一个类实现银行账户的概念，包含的属性有“帐号”、“密
 码”、“存款余额”、“利率”、“最小余额”，定义封装这些
